@@ -1,0 +1,75 @@
+{
+    "id": "eaaf6ec9-b2eb-4dc7-8247-69fc459920bb",
+    "name": "ALProject4",
+    "publisher": "Default Publisher",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "b3780cd9-f8f8-4a83-a4d5-0c2ad87b28af",
+            "name": "Sustainability",
+            "publisher": "Microsoft",
+            "version": "28.0.46665.48932"
+        },
+        {
+            "id": "3d5b2137-efeb-4014-8489-41d37f8fd4c3",
+            "name": "Late Payment Prediction",
+            "publisher": "Microsoft",
+            "version": "28.0.46665.48932"
+        },
+        {
+            "id": "8238f99b-cbe5-4b9c-b247-7771145b7470",
+            "name": "E-Document Format for Factura-E",
+            "publisher": "Microsoft",
+            "version": "28.0.46665.48932"
+        },
+        {
+            "id": "5f2e93a0-6083-4718-b05a-7ac89be5644d",
+            "name": "External Storage - Document Attachments",
+            "publisher": "Microsoft",
+            "version": "28.0.46665.48932"
+        },
+        {
+            "id": "3099ffc7-4cf7-4df6-9b96-7e4bc2bb587c",
+            "name": "Subscription Billing",
+            "publisher": "Microsoft",
+            "version": "28.0.46665.48932"
+        },
+        {
+            "id": "70912191-3c4c-49fc-a1de-bc6ea1ac9da6",
+            "name": "Intrastat Core",
+            "publisher": "Microsoft",
+            "version": "28.0.46665.48932"
+        },
+        {
+            "id": "ec255f57-31d0-4ca2-b751-f2fa7c745abb",
+            "name": "Shopify Connector",
+            "publisher": "Microsoft",
+            "version": "28.0.46665.48932"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "28.0.46665.48932",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50149
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "17.0",
+    "features": [
+        "NoImplicitWith"
+    ]
+}
