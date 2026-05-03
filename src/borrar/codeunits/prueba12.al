@@ -187,6 +187,29 @@ codeunit 50101 prueba12
     end;
 
 
+    procedure confirmacion()
+
+    var
+        useridtext: Text;
+        Datework: Date;
+
+    begin
+        if Confirm('Abrir pantalla', false) then begin
+
+
+            Message('OK');
+            useridtext := UserId();
+
+            Datework := WorkDate();
+
+            Message(useridtext, Datework);
+
+        end
+
+        else
+            Error('Not ok');
+    end;
+
 
 
 

@@ -133,6 +133,65 @@ page 50104 CursosList
 
             }
 
+            action(Confirm)
+            {
+                trigger OnAction()
+
+                var
+                    confirmacion1: Codeunit prueba12;
+
+                begin
+
+                    confirmacion1.confirmacion();
+                end;
+
+            }
+
+            action(strmenuuu)
+            {
+                trigger OnAction()
+
+                var
+                    Opcion: Integer;
+                begin
+                    Opcion := StrMenu('Alta,Baja,Salir', 1);
+                end;
+
+            }
+
+            action(ComprobarDisponibilidad)
+            {
+                ApplicationArea = All;
+                Caption = 'Comprobar Disponibilidad';
+
+
+                trigger OnAction()
+                var
+                    VentanaDialogo: Page "Dialogo Reserva Curso";
+                    ManejoCursos: Codeunit Prueba456;
+                begin
+                    // 1. Abrimos la ventanita
+                    if VentanaDialogo.RunModal() = Action::OK then begin
+                        // 2. Si el usuario pulsó OK, recuperamos sus datos
+                        // "Rec" es el curso seleccionado en la lista
+                        ManejoCursos.ComprobarEspacio(
+                            Rec.codigoCurso,
+                            VentanaDialogo.GetCantidad(),
+                            VentanaDialogo.GetFecha()
+                        );
+                    end;
+                end;
+            }
+
+            action(RunCode)
+            {
+                ApplicationArea = All;
+                Image = NewSum;
+                Caption = 'Runea el codeunit';
+                ToolTip = 'tooltip';
+                RunObject = codeunit pruebarun;
+            }
+
         }
     }
 
