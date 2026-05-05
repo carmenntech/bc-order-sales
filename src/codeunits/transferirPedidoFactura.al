@@ -37,7 +37,18 @@ codeunit 50108 "Transferir Pedido a Factura"
 
             until PedidoLineas.Next() = 0;
 
-        Message('Factura %1 creada con éxito', Factura."No.");
+        //Message('Factura %1 creada con éxito', Factura."No.");
+
+        Pedido.Get(Pedido.No);
+        Pedido.Delete(true);
+
+        PedidoLineas.SetRange("Documento No", Pedido.No);
+        PedidoLineas.DeleteAll();
+
+        if Confirm('¿Quieres abrir la factura creada?') then
+            Page.Run(Page::"Sales Invoice Header 2", Factura)
+        else
+            Message('Okey');
     end;
 }
 

@@ -24,20 +24,10 @@ table 50106 "Sales Line 2"
             Caption = 'Número de linea';
 
 
-            trigger OnValidate()
-
-            var
-
-                Sales: Record "Sales Line 2";
-
-            begin
 
 
-                if rec."Linea No" = 0 then
-                    if Sales.FindLast() then
-                        rec."Linea No" := Sales."Linea No" + 1;
 
-            end;
+
 
         }
 
@@ -48,6 +38,8 @@ table 50106 "Sales Line 2"
 
 
             TableRelation = Customer."No.";
+
+
         }
 
 
@@ -56,15 +48,55 @@ table 50106 "Sales Line 2"
             DataClassification = ToBeClassified;
             Caption = 'Tipo de venta';
 
+
+
+
+
         }
 
         field(6; No; Code[20])
         {
             DataClassification = ToBeClassified;
-            Caption = 'Número Venta';
+            Caption = 'Número Producto';
 
             TableRelation = if (Tipo = const(Producto)) "Item"."No."
             else if (Tipo = const(Activo)) "Fixed Asset"."No.";
+
+            trigger OnValidate()
+
+            var
+
+                Sales: Record "Sales Line 2";
+                Item: Record "Item";
+                Fixed: Record "Fixed Asset";
+                SalesHeader: Record "Sales Header 2";
+
+            begin
+
+
+                if rec."Linea No" = 0 then
+                    if Sales.FindLast() then
+                        rec."Linea No" := Sales."Linea No" + 1;
+
+                if Rec.Tipo = Tipo::Producto then
+                    if Item.Get(Rec.No) then begin
+                        Rec.Descripcion := Item.Description;
+
+                    end;
+
+                if Rec.Tipo = Tipo::Activo then
+                    if Fixed.Get(Rec.No) then begin
+                        Rec.Descripcion := Fixed.Description;
+                    end;
+
+                /* Sales.SetRange("Documento No", SalesHeader.No);
+
+                 if Sales.FindLast() then
+                     Rec."Linea No" := Sales."Linea No" + 1
+                 else
+                     Rec."Linea No" := 1;*/
+
+            end;
 
         }
 
@@ -72,20 +104,6 @@ table 50106 "Sales Line 2"
         {
             DataClassification = ToBeClassified;
             Caption = 'Descripción';
-
-            trigger OnValidate()
-
-            var
-                Sales: Record "Sales Line 2";
-                Item: Record "Item";
-                Fixed: Record "Fixed Asset";
-
-            begin
-                if Rec.Tipo = Tipo::Producto then
-                    Rec.Descripcion := Item.Description;
-                if Rec.Tipo = Tipo::Activo then
-                    Rec.Descripcion := Fixed.Description;
-            end;
 
         }
 
@@ -152,7 +170,22 @@ table 50106 "Sales Line 2"
         myInt: Integer;
 
     trigger OnInsert()
+
+    var
+
+        validacion: Codeunit "Validaciones Sales";
+        Sales: Record "Sales Line 2";
+        SalesHeader: Record "Sales Header 2";
+
     begin
+
+
+
+        if Sales.FindLast() then
+            Rec."Linea No" := Sales."Linea No" + 1
+        else
+            Rec."Linea No" := 1;
+
 
     end;
 

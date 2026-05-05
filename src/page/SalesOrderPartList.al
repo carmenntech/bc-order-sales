@@ -15,11 +15,16 @@ page 50109 "Sales Order Part List"
                 {
                     ApplicationArea = All;
                 }
-
+                field("No"; Rec."No")
+                {
+                    ApplicationArea = All;
+                }
                 field("Linea No"; Rec."Linea No")
                 {
                     ApplicationArea = All;
                 }
+
+
 
                 field(Descripcion; Rec.Descripcion)
                 {

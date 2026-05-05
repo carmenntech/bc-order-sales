@@ -229,7 +229,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Linea No - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2332601488 - Field 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Número Venta</source>
+          <source>Número Producto</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field No - Property Caption</note>
         </trans-unit>

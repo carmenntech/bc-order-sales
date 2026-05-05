@@ -28,6 +28,18 @@ table 50105 "Sales Header 2"
 
             TableRelation = Customer."No.";
 
+            trigger OnValidate()
+            var
+                Customer: Record Customer;
+            begin
+
+                if Customer.Get(Rec."Venta a No Cliente") then begin
+
+                    Rec."Venta a Cliente Nombre" := Customer.Name;
+                    Rec."Venta a cliente Direccion" := Customer.Address;
+                end;
+            end;
+
 
         }
 
@@ -36,6 +48,8 @@ table 50105 "Sales Header 2"
             DataClassification = ToBeClassified;
             Caption = 'Venta Cliente Nombre';
 
+
+
         }
 
         field(5; "Venta a cliente Direccion"; Text[100])
@@ -43,20 +57,7 @@ table 50105 "Sales Header 2"
             DataClassification = ToBeClassified;
             Caption = 'Venta Dirección cliente';
 
-            trigger OnValidate()
-            var
-                Customer: Record Customer;
-                Sales: Record "Sales Header 2";
 
-            begin
-
-                if Customer.Get('Adress') then
-                    Rec."Venta a cliente Direccion" := Customer.Address
-
-                else
-                    Rec."Venta a cliente Direccion" := 'Sin dirección asociada';
-
-            end;
         }
 
         field(6; "Fecha Pedido"; Date)
@@ -64,15 +65,6 @@ table 50105 "Sales Header 2"
             DataClassification = ToBeClassified;
             Caption = 'Fecha del pedido';
 
-            trigger OnValidate()
-
-            var
-                Sales: Record "Sales Header 2";
-
-            begin
-                if Rec."Fecha Pedido" = 0D then
-                    Rec."Fecha Pedido" := Today();
-            end;
         }
 
         field(7; "Fecha Registro"; Date)
@@ -132,6 +124,11 @@ table 50105 "Sales Header 2"
 
         if Rec.No = '' then
             Rec.No := Validaciones.GetNextNoCode();
+
+        if Rec."Fecha Pedido" = 0D then
+            Rec."Fecha Pedido" := Today();
+
+
 
     end;
 
