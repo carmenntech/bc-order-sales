@@ -1,24 +1,25 @@
-page 50107 "Sales Order 2"
+page 50113 "Sales Invoice Header 2"
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = "Sales Header 2";
+    SourceTable = "Sales Invoice Header 2";
     Editable = true;
+
 
     layout
     {
         area(Content)
         {
-            group("Datos del Pedido")
+            group("Datos Factura")
             {
-                field(No; Rec.No)
+                field(No; Rec."No.")
                 {
                     ApplicationArea = All;
                     Editable = true;
                 }
 
-                field("Venta a No Cliente"; Rec."Venta a No Cliente")
+                field("Venta a No Cliente"; Rec."Venta a No. Cliente")
                 {
                     ApplicationArea = All;
                     Editable = true;
@@ -43,9 +44,9 @@ page 50107 "Sales Order 2"
                 }
             }
 
-            part("Sales Header 2"; "Sales Order Part List")
+            part("Sales Invoice Header 2"; "Posted Sales Part List")
             {
-                SubPageLink = "Documento No" = field(No);
+                SubPageLink = "Document No." = field("No.");
             }
 
             group(Totales)
@@ -63,27 +64,13 @@ page 50107 "Sales Order 2"
     {
         area(Processing)
         {
-            action(PasoPedidoFactura)
+            action(ActionName)
             {
 
-                ApplicationArea = All;
-                Caption = 'Paso pedido a Factura';
-
-
                 trigger OnAction()
-
-                var
-                    transToInvoice: Codeunit "Transferir Pedido a Factura";
-                    Pedido: Record "Sales Header 2";
-                    PedidoLineas: Record "Sales Line 2";
-
-
                 begin
 
-                    transToInvoice.ProcesarCursoConProfesores(Pedido);
-
                 end;
-
             }
         }
     }

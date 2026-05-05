@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="ALProject4">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1932900837 - Field 2849695787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actividad Curso</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cursos - Field ActividadCurso - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1932900837 - Field 2036350443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Codigo curso</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cursos - Field codigoCurso - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1932900837 - Field 1077025339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CodigoProfesor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cursos - Field CodigoProfesor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1932900837 - Field 2607933604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha fin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cursos - Field FechaFIn - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1932900837 - Field 2159682478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha inicio</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cursos - Field FechaInicio - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1932900837 - Field 3048811075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nombre Curso</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cursos - Field nombreCurso - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1932900837 - Field 4207827891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Numero Alumnos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cursos - Field NumeroAlumnos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1932900837 - Field 2883740582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo Curso</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cursos - Field Tipo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4181160540 - Field 2559663699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Codigo Profesor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Profesor - Field codigo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4181160540 - Field 1341597147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nombre Profesor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Profesor - Field nombre - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 2157041024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Términos de pago</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field codigo terminos de pago - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 2377508894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha del pedido</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field Fecha Pedido - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 3903370750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha del Registro</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field Fecha Registro - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Número Factura</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 2832857678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo Documento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field Tipo Documento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 3687686174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Cantidad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field Total Cantidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 3184703809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Venta Dirección cliente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field Venta a cliente Direccion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 3455332328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Venta Cliente Nombre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field Venta a cliente Nombre - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2977772615 - Field 3495891880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Venta cliente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Header 2 - Field Venta a No Cliente - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 3593910600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Código Términos de Pago </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Código Términos de Pago  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 2377508894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Pedido</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Fecha Pedido - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 3903370750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Registro</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Fecha Registro - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 2832857678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo de Documento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Tipo Documento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 3687686174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Cantidad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Total Cantidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 1794129501 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Venta a Cliente Dirección</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Venta a Cliente Dirección - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 1407734280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Venta a Cliente Nombre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Venta a Cliente Nombre - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2451753880 - Field 3039195614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Venta a No. Cliente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Header 2 - Field Venta a No. Cliente - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 2673828796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cantidad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Cantidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 1475260075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripcion</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Descripcion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 2272012708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importe</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Importe - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 2522310636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linea No. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Linea No.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Número Venta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 2167915222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Precio</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Precio - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 2883740582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo de venta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Tipo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 2832857678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo Documento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Tipo Documento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 633088847 - Field 3039195614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Venta a No. Cliente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Line 2 - Field Venta a No. Cliente - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 2673828796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cantidad Producto</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Cantidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 1475260075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descripción</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Descripcion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 863249683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Número de Documento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Documento No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 2272012708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importe venta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Importe - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 2968475602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Número de linea</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Linea No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Número Venta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 2167915222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Precio Producto</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Precio - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 2883740582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo de venta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Tipo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 2832857678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo de Documento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Tipo Documento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332601488 - Field 3039195614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Numero de Cliente por Venta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line 2 - Field Venta a No. Cliente - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2762647211 - Action 3064114502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Alumnos activos totales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CursosList - Action alumnosactivos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2762647211 - Action 3080616115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Numero de alumnos por tipo de curso</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CursosList - Action CantidadTiposCurso - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2762647211 - Action 909963217 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Capacidad del centro para albergar a los alumnos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CursosList - Action capacidadAlumnos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2762647211 - Action 3637305648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comprobar Disponibilidad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CursosList - Action ComprobarDisponibilidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2762647211 - Action 123394648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>tooltip</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CursosList - Action RunCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2762647211 - Action 123394648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Runea el codeunit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CursosList - Action RunCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2762647211 - Action 4234900097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total letras</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CursosList - Action totalletras - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3702066861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Datos de la Reserva</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Dialogo Reserva Curso - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3702066861 - Control 3627137441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cantidad de Alumnos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Dialogo Reserva Curso - Control CantAlumnos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3702066861 - Control 1485102511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Necesitada</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Dialogo Reserva Curso - Control FechaReserva - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 962911216 - Action 3065291108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Paso pedido a Factura</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Order 2 - Action PasoPedidoFactura - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2377556786 - Action 3065291108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Paso pedido a Factura</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Order List 2 - Action PasoPedidoFactura - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1872665835 - EnumValue 108480551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo Documento Compras</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Tipo Documento Ventas - EnumValue Abono - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1872665835 - EnumValue 2257076082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Factura</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Tipo Documento Ventas - EnumValue Factura - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1872665835 - EnumValue 904866853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Oferta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Tipo Documento Ventas - EnumValue Oferta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1872665835 - EnumValue 1563958717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pedido</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Tipo Documento Ventas - EnumValue Pedido - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1160899471 - EnumValue 1559139290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Tipo Linea Venta - EnumValue Activo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1160899471 - EnumValue 1052421340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cuenta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Tipo Linea Venta - EnumValue Cuenta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1160899471 - EnumValue 2231268992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Producto </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Tipo Linea Venta - EnumValue Producto - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1160899471 - EnumValue 2637528113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recurso</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Tipo Linea Venta - EnumValue Recurso - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 203854934 - EnumValue 3136298763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Administracion</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TipoCurso - EnumValue Administracion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 203854934 - EnumValue 3102007679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business central</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TipoCurso - EnumValue Businesscentral - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 203854934 - EnumValue 314620692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Power Platform</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum TipoCurso - EnumValue PowerPlatform - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

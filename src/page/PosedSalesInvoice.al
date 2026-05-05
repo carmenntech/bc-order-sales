@@ -1,45 +1,45 @@
-page 50109 "Sales Order Part List"
+page 50112 "Posed Sales Invoice"
 {
-    PageType = ListPart;
+    PageType = List;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = "Sales Line 2";
+    SourceTable = "Sales Invoice Header 2";
+    CardPageID = "Sales Invoice Header 2";
+    Editable = false;
 
     layout
     {
         area(Content)
         {
-            repeater("Lineas del Pedido")
+            repeater(GroupName)
             {
-                field(Tipo; Rec.Tipo)
+                field("No."; Rec."No.")
+                {
+
+                    ApplicationArea = All;
+                }
+
+                field("Venta a No. Cliente"; Rec."Venta a No. Cliente")
                 {
                     ApplicationArea = All;
                 }
 
-                field("Linea No"; Rec."Linea No")
+                field("Venta a Nombre"; Rec."Venta a Cliente Nombre")
                 {
                     ApplicationArea = All;
                 }
 
-                field(Descripcion; Rec.Descripcion)
+                field("Fecha Registro"; Rec."Fecha Registro")
                 {
                     ApplicationArea = All;
                 }
 
-                field(Cantidad; Rec.Cantidad)
+                field(Total; Rec.Total)
                 {
                     ApplicationArea = All;
                 }
 
-                field(Precio; Rec.Precio)
-                {
-                    ApplicationArea = All;
-                }
 
-                field(Importe; Rec.Importe)
-                {
-                    ApplicationArea = All;
-                }
 
 
             }

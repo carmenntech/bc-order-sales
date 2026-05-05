@@ -39,6 +39,11 @@ page 50106 "Sales Order List 2"
                     ApplicationArea = All;
                 }
 
+                field("Total cantidad"; Rec."Total cantidad")
+                {
+                    ApplicationArea = All;
+                }
+
 
             }
         }
@@ -48,13 +53,32 @@ page 50106 "Sales Order List 2"
     {
         area(Processing)
         {
-            action(ActionName)
+            action(PasoPedidoFactura)
             {
 
+                ApplicationArea = All;
+                Caption = 'Paso pedido a Factura';
+
+
                 trigger OnAction()
+
+                var
+                    Transferencia: Codeunit "Transferir Pedido a Factura";
+                    Pedido: Record "Sales Header 2";
                 begin
 
+                    if Rec.No = '' then
+                        Error('Debes seleccionar un pedido válido.');
+
+
+                    Pedido := Rec;
+
+
+                    Transferencia.ProcesarCursoConProfesores(Pedido);
+
+
                 end;
+
             }
         }
     }

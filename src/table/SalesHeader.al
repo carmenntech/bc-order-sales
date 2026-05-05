@@ -90,13 +90,19 @@ table 50105 "Sales Header 2"
         }
 
 
-        field(50100; "Total"; Decimal)
+        field(9; "Total"; Decimal) //50100
         {
             FieldClass = FlowField;
             CalcFormula = sum("Sales Line 2".Importe WHERE("Documento No" = FIELD("No")));
 
         }
 
+        field(10; "Total Cantidad"; Decimal)
+        {
+            FieldClass = FlowField;
+            CalcFormula = sum("Sales Line 2".Cantidad WHERE("Documento No" = FIELD("No")));
+
+        }
 
 
     }

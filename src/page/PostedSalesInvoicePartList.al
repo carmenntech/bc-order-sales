@@ -1,9 +1,10 @@
-page 50109 "Sales Order Part List"
+page 50114 "Posted Sales Part List"
 {
     PageType = ListPart;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = "Sales Line 2";
+    SourceTable = "Sales Invoice Line 2";
+    Editable = false;
 
     layout
     {
@@ -16,7 +17,7 @@ page 50109 "Sales Order Part List"
                     ApplicationArea = All;
                 }
 
-                field("Linea No"; Rec."Linea No")
+                field("Linea No"; Rec."Linea No. ")
                 {
                     ApplicationArea = All;
                 }
@@ -53,10 +54,7 @@ page 50109 "Sales Order Part List"
             action(ActionName)
             {
 
-                trigger OnAction()
-                begin
 
-                end;
             }
         }
     }

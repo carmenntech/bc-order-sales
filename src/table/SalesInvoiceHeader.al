@@ -49,6 +49,20 @@ table 50107 "Sales Invoice Header 2"
             TableRelation = "Payment Terms".Code;
 
         }
+
+        field(9; "Total"; Decimal)
+        {
+            FieldClass = FlowField;
+            CalcFormula = sum("Sales Invoice Line 2".Importe WHERE("Document No." = FIELD("No.")));
+
+        }
+
+        field(10; "Total Cantidad"; Decimal)
+        {
+            FieldClass = FlowField;
+            CalcFormula = sum("Sales Invoice Line 2".Cantidad WHERE("Document No." = FIELD("No.")));
+
+        }
     }
 
     keys
